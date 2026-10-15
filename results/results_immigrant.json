@@ -1,0 +1,11 @@
+{
+  "model": "roberta-base",
+  "device": "mps",
+  "n_train": 8954,
+  "n_val": 1119,
+  "n_test": 1120,
+  "test_accuracy": 0.9526785714285714,
+  "test_macro_f1": 0.9520222042790438,
+  "test_weighted_f1": 0.9526535192472918,
+  "gap": 0.000656367149527548
+}

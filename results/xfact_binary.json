@@ -1,0 +1,19 @@
+{
+  "model": "xlm-roberta-base",
+  "dataset": "utahnlp/x-fact (all_languages)",
+  "task": "binary veracity classification",
+  "n_train": 19079,
+  "n_dev": 2535,
+  "results": {
+    "test_es": {"macro_f1": 0.6718, "weighted_f1": 0.7178, "accuracy": 0.7441, "n": 211},
+    "test_hi": {"macro_f1": 0.4654, "weighted_f1": 0.8158, "accuracy": 0.8706, "n": 170},
+    "test_pt": {"macro_f1": 0.6636, "weighted_f1": 0.6639, "accuracy": 0.6637, "n": 1121},
+    "ood_hi":  {"macro_f1": 0.3327, "weighted_f1": 0.3336, "accuracy": 0.4987, "n": 381},
+    "ood_pt":  {"macro_f1": 0.6203, "weighted_f1": 0.6361, "accuracy": 0.6504, "n": 472}
+  },
+  "per_class_f1_test": {
+    "es": {"true-ish": 0.8258, "false-ish": 0.5179},
+    "hi": {"true-ish": 0.0000, "false-ish": 0.9308},
+    "pt": {"true-ish": 0.6582, "false-ish": 0.6690}
+  }
+}
